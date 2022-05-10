@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT plandjango.wsgi:application
+web: gunicorn hppProject.wsgi
