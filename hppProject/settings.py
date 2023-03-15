@@ -133,8 +133,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://obscure-atoll-06785.herokuapp.com",
-    "http://obscure-atoll-06785.herokuapp.com",
+    "http://localhost:3000",
 ]
 
 django_heroku.settings(locals())
